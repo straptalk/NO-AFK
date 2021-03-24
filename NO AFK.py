@@ -28,7 +28,7 @@ print(f'''{Fore.GREEN}
 ░ ░░   ░ ▒░  ░ ▒ ▒░       ░   ▒▒ ░ ░      ░ ░▒ ▒░
    ░   ░ ░ ░ ░ ░ ▒        ░   ▒    ░ ░    ░ ░░ ░ 
          ░     ░ ░            ░  ░        ░  ░   
-                 MADE BY TOUSKI''')
+                 MADE BY Tacey#0002''')
 
 
 @client.event

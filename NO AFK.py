@@ -32,15 +32,6 @@ print(f'''{Fore.GREEN}
 
 
 @client.event
-async def on_message_delete(message):
-  if message.author != client.user:
-    print(f'''
-Message in {C.BLUE}{message.guild}  {C.RED}deleted{C.RESET}
-Author: {C.YELLOW}{message.author}{C.RESET}
-Content:\n {message.content}
-  ''')
-
-@client.event
 async def on_message(message):
     if client.user.mentioned_in(message):
       time.sleep(1)

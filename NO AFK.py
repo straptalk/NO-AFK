@@ -7,20 +7,16 @@ import datetime
 import time
 import os
 
-
 from colorama import Fore
 from colorama import Fore as C
 from discord.ext import commands
 
 os.system("title NO AFK MADE BY TOUSKI")
 
+prefix = "."
 
 client = discord.Client()
-prefix = "."
-client = commands.Bot(
-    command_prefix=prefix,
-    self_bot=True
-)
+client = commands.Bot(command_prefix=prefix, self_bot=True)
 client.remove_command('help') 
 
 print(f'''{Fore.GREEN}
